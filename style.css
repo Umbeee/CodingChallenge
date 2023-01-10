@@ -1,0 +1,87 @@
+body{
+  /* margin-left: 50px; */
+  background-image: url(file:///C:/Users/User/Documents/testi%20html/Class5/coding%20challenge/foto/background.jpg);
+  background-size: cover;
+}
+
+
+section{
+  height: 800px;
+  width: 1200px;
+  margin: auto;
+  font-family: Tahoma, Arial;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px 15px 15px 15px;
+
+}
+
+.descrizione{
+  font-size: 30px;
+  color: rgba(0,221,0,255);
+  text-align: center;
+}
+
+.logo{
+  margin-top: 120px;
+  /* margine giusto considerare che appena metto il box scuro in sottofondo devo metterlo di x, cambiando questo a 120-x */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+  width: 250px;
+
+}
+
+.tasti{
+  background-color: rgba(0,221,0,255);
+  padding: 15px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.divIL{
+
+  display: inline;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 2px;
+  background-color: white;
+
+}
+
+
+#mono {
+  text-align: left;
+  color: white;
+  list-style-type: none;
+
+}
+.monopattini{
+  font-size: 25px;
+  /* font-weight: bold; */
+}
+
+#barra1{
+  color: #00f;
+  background: rgba(245,180,83,255);
+  width: 350px;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#barra2{
+  color: #00f;
+  background: rgba(30,195,30,255);
+  width: 600px;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#barra3{
+  color: #00f;
+  background: rgba(190,65,65,255);
+  width:150px;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
